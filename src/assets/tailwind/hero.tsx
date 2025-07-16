@@ -1,4 +1,4 @@
-hero.tsx;
+// hero.tsx;
 import React from "react";
 
 const Hero: React.FC = () => {
@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
               Take a free test drive of MongoDB Atlas and experience the power
               and versatility for yourself!
             </h4>
-            <button className="w-[150px] h-10 rounded-full border-[1.5px] border-black text-black text-sm font-semibold transition-colors hover:bg-gray-100">
+            <button className="w-[150px] h-10 rounded-full border-[1.5px] border-black text-black text-sm font-semibold transition-colors hover:bg-black hover:text-white">
               Try Free Demo
             </button>
           </div>
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         </h4>
 
         <div className="w-[20%] h-[100px] flex justify-between items-center">
-          <button className="w-[150px] h-[50px] bg-[#00ED64] border-[1.5px] border-black rounded-lg text-black font-semibold transition-colors hover:bg-[#00ED64]/80">
+          <button className="h-[50px] w-[150px] bg-[#00ED64] text-black rounded-xl font-semibold border hover:rounded-full ">
             Get Started
           </button>
           <button>Learn more</button>
