@@ -1,11 +1,15 @@
 import React from "react";
-
+import docs from "../assets/docs.svg";
+import monuni from "../assets/monuni.svg";
+import comppl from "../assets/comppl.svg";
 const Body3: React.FC = () => {
   return (
     <div className="w-full h-auto min-h-[80vh] bg-[#001E2B] flex flex-wrap justify-center items-center gap-[15px] py-12 px-4 md:px-6 lg:px-8">
-      <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-10px)] h-auto min-h-[360px] border border-gray-400 rounded-[20px] flex justify-center items-center p-4">
+      <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-10px)] h-auto min-h-[360px] border border-gray-400 rounded-[20px] flex justify-evenly items-center p-4">
         <div className="w-[85%] h-[85%] flex flex-col justify-between">
-          <div className="w-[80px] h-[70px] bg-red-500 rounded-md"></div>
+          <div className="w-[80px] h-[70px] ">
+            <img src={docs} />
+          </div>
           <h4 className="text-[20px] text-white font-semibold">Docs</h4>
           <p className="text-gray-300 text-base">
             Reference manuals, articles, and code samples — all the technical
@@ -17,9 +21,11 @@ const Body3: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-10px)] h-auto min-h-[360px] border border-gray-400 rounded-[20px] flex justify-center items-center p-4">
+      <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-10px)] h-auto min-h-[360px] border border-gray-400 rounded-[20px] flex justify-evenly items-center p-4">
         <div className="w-[85%] h-[85%] flex flex-col justify-between">
-          <div className="w-[80px] h-[70px] bg-red-500 rounded-md"></div>
+          <div className="w-[80px] h-[70px] ">
+            <img src={monuni} />
+          </div>
           <h4 className="text-[20px] text-white font-semibold">
             MongoDB University
           </h4>
@@ -33,9 +39,11 @@ const Body3: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-10px)] h-auto min-h-[360px] border border-gray-400 rounded-[20px] flex justify-center items-center p-4">
+      <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-10px)] h-auto min-h-[360px] border border-gray-400 rounded-[20px] flex justify-evenly items-center p-4">
         <div className="w-[85%] h-[85%] flex flex-col justify-between">
-          <div className="w-[80px] h-[70px] bg-red-500 rounded-md"></div>
+          <div className="w-[80px] h-[70px] ">
+            <img src={comppl} />
+          </div>
           <h4 className="text-[20px] text-white font-semibold">Docs</h4>
           <p className="text-gray-300 text-base">
             Reference manuals, articles, and code samples — all the technical

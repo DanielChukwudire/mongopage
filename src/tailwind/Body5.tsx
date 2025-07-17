@@ -1,10 +1,10 @@
 import React from "react";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
-// import vsco from "../assets/Victoria_s-Secret-VS&Co-Logo_Primary_Black.png";
-// import toyota from "../assets/Toyota-connected-logo.png";
-// import lg from "../src/assets/lg.jpg";
-// import novo from "../assets/Novo_Nordisk.svg";
-// import coin from "../assets/Coinbase.svg";
+import vsco from "../assets/vsco.png";
+import toyota from "../assets/toyota.png";
+import lg from "../assets/lg.jpg";
+import novo from "../assets/novo.svg";
+import coin from "../assets/Coinbase.svg";
 // import curly from "../assets/curlybraces.svg";
 
 const Body5: React.FC = () => {
@@ -25,7 +25,7 @@ const Body5: React.FC = () => {
         <div className="w-[97%] h-auto  flex justify-between">
           <div className="w-[17%] gap-3 flex flex-col items-center">
             <img
-              //   src={vsco}
+              src={vsco}
               alt=""
               className="h-[60px] w-[100%] object-contain"
             />
@@ -33,19 +33,19 @@ const Body5: React.FC = () => {
           </div>
           <div className="w-[17%] gap-3 flex flex-col items-center">
             <img
-              //   src={toyota}
+              src={toyota}
               alt=""
               className="h-[60px] w-[100%] object-contain"
             />
             <div className="w-[100%] h-[5px] rounded-[10px] bg-[#b7b4b4]"></div>
           </div>
           <div className="w-[17%] gap-3 flex flex-col items-center">
-            {/* <img src={lg} alt="" className="h-[60px] w-[100%] object-contain" /> */}
+            <img src={lg} alt="" className="h-[60px] w-[100%] object-contain" />
             <div className="w-[100%] h-[5px] rounded-[10px] bg-[#b7b4b4]"></div>
           </div>
           <div className="w-[17%] gap-3 flex flex-col items-center">
             <img
-              //   src={novo}
+              src={novo}
               alt=""
               className="h-[60px] w-[100%] object-contain"
             />
@@ -53,7 +53,7 @@ const Body5: React.FC = () => {
           </div>
           <div className="w-[17%] gap-3 flex flex-col items-center ">
             <img
-              //   src={coin}
+              src={coin}
               alt=""
               className="h-[60px] w-[100%] object-contain"
             />
@@ -65,7 +65,7 @@ const Body5: React.FC = () => {
         <div className="w-[100%] h-[400px] flex justify-center items-center">
           <div className="w-[95%] h-[400px] flex justify-between items-center">
             <div className="h-[300px] w-[300px] flex flex-col justify-between">
-              {/* <img className="h-[60px] w-[150px] object-contain" src={toyota} /> */}
+              <img className="h-[60px] w-[150px] object-contain" src={toyota} />
               <div className="flex flex-col gap-2">
                 <p className="font-bold text-green-600 text-3xl ml-7 mt-10">
                   99.99%

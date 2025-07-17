@@ -1,13 +1,13 @@
 import React from "react";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
-// import Code from "../assets/Code_Windows.svg";
+import Code from "../assets/Code.svg";
 
 const Body2: React.FC = () => {
   return (
     <div className="w-full h-auto min-h-[80vh] bg-[#001E2B] flex flex-col md:flex-row justify-center items-center py-12 px-4 md:px-6 lg:px-8">
       <div className="w-full md:w-[45%] h-auto md:h-[80%] flex justify-center items-center mb-8 md:mb-0">
         <img
-          //   src={Code}
+          src={Code}
           alt="Code Snippet"
           className="max-w-full h-auto object-contain"
         />

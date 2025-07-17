@@ -1,6 +1,6 @@
 import React from "react";
 import { PiGreaterThanLight } from "react-icons/pi";
-// import yellow from "../assets/yellow.svg";
+import pic from "../assets/buildpic.svg";
 
 const Body7: React.FC = () => {
   return (
@@ -24,15 +24,15 @@ const Body7: React.FC = () => {
                   ever before
                 </p>
                 <div className=" text-[16px] font-bold w-[90%] h-[13%]">
-                  <button className="h-[100%] rounded-[5px] w-[150px] bg-[#00ED64]">
+                  <button className="h-[100%] rounded-[5px] w-[150px] bg-[#00ED64] hover:rounded-full">
                     Start Free
                   </button>
                 </div>
               </div>
               <img
-                // src={yellow}
+                src={pic}
                 alt=""
-                className="h-[100%] w-[51%] object-cover"
+                className="h-[100%] w-[51%] object-cover rounded-[15px]"
               />
             </div>
             <div className="h-[100%] w-[35%] border border-gray-400 rounded-[20px] flex justify-center items-center">

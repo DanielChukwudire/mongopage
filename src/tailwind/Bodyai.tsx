@@ -1,7 +1,7 @@
 import React from "react";
-// import one from "../assets/one.png";
-// import two from "../assets/two.png";
-// import three from "../assets/three.png";
+import model from "../assets/model.png";
+import design from "../assets/design.png";
+import search from "../assets/search.png";
 import { PiGreaterThanLight } from "react-icons/pi";
 
 const Bodyai: React.FC = () => {
@@ -20,7 +20,7 @@ const Bodyai: React.FC = () => {
           </div>
           <div className="w-[70%] h-[500px] flex justify-between">
             <div className="w-[250px] h-[500px] flex  flex-col justify-evenly items-center rounded-[30px] bg-white">
-              {/* <img src={one} alt="" /> */}
+              <img src={model} alt="" />
               <h3>Relational to Document Model</h3>
               <p className="w-[80%]">
                 Boost your skills in building efficient apps with
@@ -32,7 +32,7 @@ const Bodyai: React.FC = () => {
               </p>
             </div>
             <div className="w-[250px] h-[500px] flex flex-col justify-evenly items-center rounded-[30px] bg-white ">
-              {/* <img src={two} alt="" /> */}
+              <img src={design} alt="" />
               <h3>Relational to Document Model</h3>
               <p className="w-[80%]">
                 Boost your skills in building efficient apps with
@@ -44,7 +44,7 @@ const Bodyai: React.FC = () => {
               </p>
             </div>
             <div className="w-[250px] h-[500px] flex flex-col justify-evenly items-center rounded-[30px] bg-white">
-              {/* <img src={three} alt="" /> */}
+              <img src={search} alt="" />
               <h3>Relational to Document Model</h3>
               <p className="w-[80%]">
                 Boost your skills in building efficient apps with

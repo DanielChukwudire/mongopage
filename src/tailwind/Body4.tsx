@@ -1,6 +1,6 @@
 import React from "react";
 import { PiGreaterThanLight } from "react-icons/pi";
-// import code from "../assets/Code_Windows.svg";
+import code from "../assets/Code.svg";
 
 const Body4: React.FC = () => {
   return (
@@ -47,12 +47,12 @@ const Body4: React.FC = () => {
                   </button>
                   <div className="h-[50px] w-[150px]  text-[white] rounded-md font-semibold hover:rounded-[20px] transition-all duration-300 flex gap-2 items-center justify-center">
                     Documentation
-                    {/* <PiGreaterThanLight size={15} /> */}
+                    <PiGreaterThanLight size={15} />
                   </div>
                 </div>
               </div>
               <div className="h-[60%] w-[35%]">
-                {/* <img src={code} alt="" className="h-[100%] w-[100%]" /> */}
+                <img src={code} alt="" className="h-[100%] w-[100%]" />
               </div>
             </div>
           </div>
