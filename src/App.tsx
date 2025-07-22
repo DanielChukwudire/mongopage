@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./spotify/Header";
+import Use from "./Usestate/Use";
 
 const App: React.FC = () => {
   return (
     <>
-      <Header />
+      <Use />
     </>
   );
 };
